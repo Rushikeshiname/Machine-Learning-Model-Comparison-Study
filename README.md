@@ -1,6 +1,6 @@
 # 🤖 Machine Learning Model Comparison Study
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rushikeshiname-machine-learning-model-comparison-stu-app-ekvkcv.streamlit.app/)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -24,35 +24,7 @@ An interactive web application for comparing multiple machine learning classific
 
 ## 🎯 Problem Statement
 
-<<<<<<< HEAD
-
-Project Structure-
-Machine-Learning-Model-Comparison-Study/
-
-├── model/                          # Folder ( contains trained models)
-│
-├── .DS_Store                       # Mac system file (can be ignored)
-│
-├── README.md                       # Project documentation
-│
-├── app.py                          # Streamlit web application
-│
-├── heart_disease_uci.csv          # Dataset file
-│
-└── requirements.txt  
-
-c. Models Used 
-The following six machine learning models were implemented and evaluated:
-Logistic Regression
-Decision Tree
-k-Nearest Neighbors (kNN)
-Naive Bayes
-Random Forest (Ensemble)
-XGBoost (Ensemble)
-Each model was trained on the same training data and evaluated using identical performance metrics.
-=======
 The objective of this project is to perform a **comparative analysis of multiple machine learning classification models** on a medical dataset. The goal is to:
->>>>>>> 19bad69 (Update readme file)
 
 - Evaluate how different algorithms perform in terms of predictive accuracy and robustness
 - Use standard evaluation metrics: **Accuracy, AUC, Precision, Recall, F1-score, and MCC**
@@ -75,17 +47,10 @@ This comparison helps data scientists and healthcare professionals make informed
 
 ### Preprocessing Steps
 
-<<<<<<< HEAD
-Conclusion
-From the comparative study, Logistic Regression emerged as the best-performing model in terms of overall accuracy and MCC, while ensemble methods such as Random Forest and XGBoost demonstrated stable and reliable performance.
-This study highlights the importance of evaluating multiple metrics rather than relying on accuracy alone when selecting a classification model.
-
-
-=======
-1.  Handling missing values
-2. Feature scaling using StandardScaler
-3. Label encoding for categorical variables
-4. Train-test split for unbiased evaluation
+1. ✅ Handling missing values
+2. ✅ Feature scaling using StandardScaler
+3. ✅ Label encoding for categorical variables
+4. ✅ Train-test split for unbiased evaluation
 
 ## 🤖 Models Implemented
 
@@ -166,7 +131,7 @@ The app will open in your default browser at `http://localhost:8501`
 
 ### Deployed Application
 
-Access the live application here: **[Your Streamlit App URL]**
+Access the live application here: **[ML Classification Dashboard](https://rushikeshiname-machine-learning-model-comparison-stu-app-ekvkcv.streamlit.app/)**
 
 ## 📈 Model Performance
 
@@ -292,4 +257,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Made with ❤️ by Rushikesh Iname
 
 </div>
->>>>>>> 19bad69 (Update readme file)
