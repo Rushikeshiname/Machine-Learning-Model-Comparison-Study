@@ -1,7 +1,7 @@
 """
 Machine Learning Classification Models Implementation
 Assignment 2 - M.Tech (AIML/DSE)
-
+Author - Rushikesh Kailash Iname
 This script implements 6 classification models with comprehensive evaluation metrics.
 Dataset: Heart Disease Prediction Dataset
 """
