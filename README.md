@@ -94,7 +94,7 @@ Access the live application here: **[ML Classification Dashboard](https://rushik
 | **Random Forest** | ✅ Improved over single Decision Tree. Balanced metrics with good stability from ensemble learning. |
 | **XGBoost** | ✅ Competitive and consistent results. Stable performance across all metrics. |
 
-## ✨ Features
+## D Features
 
 ### Interactive Dashboard
 - 📤 **File Upload**: Support for CSV datasets
@@ -147,15 +147,15 @@ Access the live application here: **[ML Classification Dashboard](https://rushik
 
 4. **Decision Tree** performed poorly, highlighting the importance of ensemble techniques to reduce overfitting.
 
-### Important Takeaways
+### E Important Takeaways
 
 ✅ **Multiple metrics matter** - Relying on accuracy alone can be misleading  
-✅ **Ensemble methods** provide more stable predictions  
+✅ **Ensem.ble methods** provide more stable predictions  
 ✅ **Model selection** depends on the specific use case and metric priorities  
 ✅ **Trade-offs exist** between different performance aspects
 
 
-## 📁 Project Structure
+## F. Project Structure
 
 ```
 Machine-Learning-Model-Comparison-Study/
