@@ -43,7 +43,7 @@ This comparison helps data scientists and healthcare professionals make informed
 - **Type:** Supervised Classification Dataset
 - **Features:** Multiple numerical and categorical features
 - **Target Variable:** Binary classification (presence/absence of heart disease)
-- **Size:** 303 instances with 14 attributes
+- **Size:** 920 instances with 14 attributes
 
 ### Preprocessing Steps
 
