@@ -65,69 +65,6 @@ The following **six machine learning models** were implemented and evaluated:
 
 Each model was trained on identical data and evaluated using the same metrics for fair comparison.
 
-## 📁 Project Structure
-
-```
-Machine-Learning-Model-Comparison-Study/
-│
-├── model/                          # Trained model files (.pkl, .joblib)
-│
-├── .DS_Store                       # Mac system file (ignored)
-│
-├── README.md                       # Project documentation (this file)
-│
-├── app.py                          # Streamlit web application
-│
-├── heart_disease_uci.csv          # Heart Disease UCI dataset
-│
-└── requirements.txt                # Python dependencies
-```
-
-## 🚀 Installation
-
-### Prerequisites
-
-- Python 3.8 or higher
-- pip package manager
-
-### Setup Instructions
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/Rushikeshiname/Machine-Learning-Model-Comparison-Study.git
-cd Machine-Learning-Model-Comparison-Study
-```
-
-2. **Create a virtual environment (recommended)**
-
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. **Install dependencies**
-
-```bash
-pip install -r requirements.txt
-```
-
-## 💻 Usage
-
-### Running the Streamlit App Locally
-
-```bash
-streamlit run app.py
-```
-
-The app will open in your default browser at `http://localhost:8501`
-
-### Using the Application
-
-1. **Upload Dataset**: Click on the sidebar to upload your CSV file (or use the included `heart_disease_uci.csv`)
-2. **Select Model**: Choose a classification model from the dropdown menu
-3. **View Results**: Explore evaluation metrics, confusion matrix, and feature importance
-4. **Compare Models**: Switch between different models to compare their performance
 
 ### Deployed Application
 
@@ -217,6 +154,70 @@ Access the live application here: **[ML Classification Dashboard](https://rushik
 ✅ **Model selection** depends on the specific use case and metric priorities  
 ✅ **Trade-offs exist** between different performance aspects
 
+
+## 📁 Project Structure
+
+```
+Machine-Learning-Model-Comparison-Study/
+│
+├── model/                          # Trained model files (.pkl, .joblib)
+│
+├── .DS_Store                       # Mac system file (ignored)
+│
+├── README.md                       # Project documentation (this file)
+│
+├── app.py                          # Streamlit web application
+│
+├── heart_disease_uci.csv          # Heart Disease UCI dataset
+│
+└── requirements.txt                # Python dependencies
+```
+
+## 🚀 Installation
+
+### Prerequisites
+
+- Python 3.8 or higher
+- pip package manager
+
+### Setup Instructions
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/Rushikeshiname/Machine-Learning-Model-Comparison-Study.git
+cd Machine-Learning-Model-Comparison-Study
+```
+
+2. **Create a virtual environment (recommended)**
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. **Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+## 💻 Usage
+
+### Running the Streamlit App Locally
+
+```bash
+streamlit run app.py
+```
+
+The app will open in your default browser at `http://localhost:8501`
+
+### Using the Application
+
+1. **Upload Dataset**: Click on the sidebar to upload your CSV file (or use the included `heart_disease_uci.csv`)
+2. **Select Model**: Choose a classification model from the dropdown menu
+3. **View Results**: Explore evaluation metrics, confusion matrix, and feature importance
+4. **Compare Models**: Switch between different models to compare their performance
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
