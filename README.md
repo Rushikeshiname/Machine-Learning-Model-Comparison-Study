@@ -25,7 +25,7 @@ The dataset was used consistently across all models to maintain a fair and relia
 
 Project Structure-
 Machine-Learning-Model-Comparison-Study/
-│
+
 ├── model/                          # Folder ( contains trained models)
 │
 ├── .DS_Store                       # Mac system file (can be ignored)
