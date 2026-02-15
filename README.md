@@ -22,6 +22,22 @@ Feature scaling where required
 Train–test split to ensure unbiased model evaluation
 The dataset was used consistently across all models to maintain a fair and reliable performance comparison.
 
+
+Project Structure-
+Machine-Learning-Model-Comparison-Study/
+│
+├── model/                          # Folder (likely contains trained models)
+│
+├── .DS_Store                       # Mac system file (can be ignored)
+│
+├── README.md                       # Project documentation
+│
+├── app.py                          # Streamlit web application
+│
+├── heart_disease_uci.csv          # Dataset file
+│
+└── requirements.txt  
+
 c. Models Used 
 The following six machine learning models were implemented and evaluated:
 Logistic Regression
@@ -60,3 +76,5 @@ Observations on Model Performance
 Conclusion
 From the comparative study, Logistic Regression emerged as the best-performing model in terms of overall accuracy and MCC, while ensemble methods such as Random Forest and XGBoost demonstrated stable and reliable performance.
 This study highlights the importance of evaluating multiple metrics rather than relying on accuracy alone when selecting a classification model.
+
+
