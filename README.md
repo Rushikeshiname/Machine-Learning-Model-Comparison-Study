@@ -1,20 +1,26 @@
 Machine Learning Model Comparison Study
 
 a. Problem Statement
-The objective of this project is to perform a comparative analysis of multiple machine learning classification models on a given dataset.
+The objective of this project is to perform a comparative analysis of multiple machine learning classification models on a dataset.
+
 The goal is to evaluate how different algorithms perform in terms of predictive accuracy and robustness using standard evaluation metrics such as Accuracy, AUC, Precision, Recall, F1-score, and Matthews Correlation Coefficient (MCC).
 This comparison helps in identifying the most suitable model for the chosen dataset and understanding the trade-offs between different learning approaches.
 
-b. Dataset Description 
+b. Dataset Description
 The dataset used in this study is a supervised classification dataset consisting of multiple input features and a categorical target variable.
+Dataset: Heart Disease UCI
+Source: Kaggle
+Download Link: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+
 Key characteristics of the dataset:
-Contains both numerical and/or categorical features
-Target variable represents class labels for classification
-Data was preprocessed through:
+
+Contains both numerical and categorical features
+Target variable represents the presence or absence of heart disease (class labels)
+Preprocessing steps applied:
 Handling missing values (if any)
 Feature scaling where required
-Train-test split for unbiased model evaluation
-The dataset was used consistently across all models to ensure a fair comparison.
+Train–test split to ensure unbiased model evaluation
+The dataset was used consistently across all models to maintain a fair and reliable performance comparison.
 
 c. Models Used 
 The following six machine learning models were implemented and evaluated:
