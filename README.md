@@ -22,7 +22,7 @@ An interactive web application for comparing multiple machine learning classific
 - [License](#-license)
 - [Contact](#-contact)
 
-## 🎯 Problem Statement
+## A. Problem Statement
 
 The objective of this project is to perform a **comparative analysis of multiple machine learning classification models** on a medical dataset. The goal is to:
 
@@ -33,7 +33,7 @@ The objective of this project is to perform a **comparative analysis of multiple
 
 This comparison helps data scientists and healthcare professionals make informed decisions when selecting classification models for medical diagnosis tasks.
 
-## 📊 Dataset Description
+## B. Dataset Description
 
 **Dataset:** Heart Disease UCI  
 **Source:** [Kaggle - Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
@@ -52,7 +52,7 @@ This comparison helps data scientists and healthcare professionals make informed
 3. ✅ Label encoding for categorical variables
 4. ✅ Train-test split for unbiased evaluation
 
-## 🤖 Models Implemented
+## C. 🤖 Models Used
 
 The following **six machine learning models** were implemented and evaluated:
 
